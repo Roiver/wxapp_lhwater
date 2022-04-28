@@ -1,19 +1,13 @@
 /**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #aaa;
+
+.grad{
+  background-color: rgb(199, 242, 223);
+  width: 100%;
+  /* height: 100rpx; */
+  background-image: linear-gradient(0deg,#ffffff, #ffffff,80%,#C7F2DF);
+  border-top: 1rpx solid #C7F2DF;
 }
 
-.userinfo-avatar {
-  overflow: hidden;
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
-}
-
-.usermotto {
-  margin-top: 200px;
+.text_center{
+  text-align: center;
 }
